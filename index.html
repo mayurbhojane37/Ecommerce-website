@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/764aa81b8d.js" crossorigin="anonymous"></script>
+    <title>Veggies</title>
+    <link rel="icon" href="images/logo1.png" type="image/icon">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><img src="images/logo1.png" class="logo"></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#features">Features</a>
+            <a href="#categories">Categories</a>
+            <a href="#customer-review">Review</a>
+            <a href="#blogs">Blogs</a>
+
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="shopping-cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/logo.png">
+                <div class="content">
+                    <h3>kobi</h3>
+                    <span class="price">₹50/-</span>
+                    <span class="quantity">Qty : 1</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/kanda.jpg">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">₹50/-</span>
+                    <span class="quantity">Qty : 1</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="images/batata.jpg">
+                <div class="content">
+                    <h3>Potato</h3>
+                    <span class="price">₹50/-</span>
+                    <span class="quantity">Qty : 1</span>
+
+                </div>
+            </div>
+
+            <div class="total">Total : ₹150/-
+            </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <div class="login">
+            <form action="#" class="login-form">
+                <h3>Login</h3>
+                <input type="email" placeholder="Email..." class="box">
+                <input type="password" placeholder="Password..." class="box">
+                <p>Forgot Password <a href="#">Click Here...</a></p>
+                <p>Don't have an account <a href="#">Create now</a></p>
+                <input type="submit" value="Login" class="btn">
+
+            </form>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh <span>Veggies</span>, Delivered to Your Doorstep</h3>
+            <p>Discover a world of freshness with our diverse selection of farm-to-table vegetables, offering
+                convenience and quality for your culinary adventures.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span><br><br>
+            Vegetables</h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/potato.png">
+                    <h1>Potato</h1>
+                    <div class="price">
+                        ₹ 20/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/methi.png">
+                    <h1>Fenugreek</h1>
+                    <div class="price">
+                        ₹ 30/-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/bhindi.png">
+                    <h1>Lady Finger</h1>
+                    <div class="price">
+                        ₹ 35/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/flower.png">
+                    <h1>Flower</h1>
+                    <div class="price">
+                        ₹ 45/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/onion.png">
+                    <h1>Onion</h1>
+                    <div class="price">
+                        ₹ 30/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/kobi.png">
+                    <h1>Cabbage</h1>
+                    <div class="price">
+                        ₹ 25/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/tomato.png">
+                    <h1>Tomato</h1>
+                    <div class="price">
+                        ₹ 40/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/peas.png">
+                    <h1>Peas</h1>
+                    <div class="price">
+                        ₹ 50/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+
+        <h1 class="heading">Fruits</h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/apple.png">
+                    <h1>Apple</h1>
+                    <div class="price">
+                        ₹ 200/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/mango.png">
+                    <h1>Mango</h1>
+                    <div class="price">
+                        ₹ 100/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/banana.png">
+                    <h1>Banana</h1>
+                    <div class="price">
+                        ₹ 50/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/kiwi.png">
+                    <h1>Kiwi</h1>
+                    <div class="price">
+                        ₹ 500/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/pineapple.png">
+                    <h1>Pineapple</h1>
+                    <div class="price">
+                        ₹ 90/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/orange.png">
+                    <h1>Orange</h1>
+                    <div class="price">
+                        ₹ 70/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/watermelon.png">
+                    <h1>Watermelon</h1>
+                    <div class="price">
+                        ₹ 50/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/strawberry.png">
+                    <h1>Straberry</h1>
+                    <div class="price">
+                        ₹ 420/kg-
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/fresh_veggies.png">
+                <h3>Fresh Vegetables</h3>
+                <p>Explore our vibrant selection of farm-fresh vegetables; hand-picked, organic, and bursting with flavor to elevate your culinary journey</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="images/delivery.png">
+                <h3>Free Delivery</h3>
+                <p>Experience the ease of shopping with us—fresh veggies delivered to your door for free, ensuring convenience and freshness at home</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="images/ruppe.png">
+                <h3>At Lowest Price</h3>
+                <p>Benefit from our competitive rates, providing top quality at the most affordable prices, ensuring value without compromising on excellence.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span style="padding-left: 70px;">Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/vegetables.png">
+                <h3>Vegetables</h3>
+                <p>Upto 40% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/fruits.png">
+                <h3>Fruits</h3>
+                <p>Upto 30% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="customer-review" id="customer-review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/male_user.svg">
+                    <p>Fresh, diverse selection. Prompt delivery, great quality! Easy browsing, fair prices. Improved my cooking! Highly recommend this website for fresh produce lovers or who loves to eat.</p>
+                    <h3>David Thompson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/female_user.svg">
+                    <p>Outstanding selection, quality, and service! Fresh vegetables delivered promptly. The go-to for my weekly groceries. Highly recommend this vegetable e-commerce website.</p>
+                    <h3>Emily Rodriguez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/user_male.svg">
+                    <p>Fresh produce delivered promptly! Impressed with quality and variety. Easy navigation and great prices. Highly recommend this site for fresh, convenient vegetable shopping!</p>
+                    <h3>Michael Chen</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/user_female.svg">
+                    <p>Fresh, diverse, and convenient produce selection. Easy navigation, timely delivery. Reliable service, quality veggies. Highly recommend for fresh and organic vegetable shopping!</p>
+                    <h3>Sarah Johnson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/blog1.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> David Rodriguez</a>
+                        <a href="#"><i class="fa-solid fa-calendar-days"></i> 28th May 2019</a>
+                    </div>
+                    <h3>"Harvest to Home: The Evolution of Vegetable E-Commerce"</h3>
+                    <p>In a world where convenience meets healthy living, vegetable e-commerce emerges as a game-changer. These platforms connect consumers to a variety of farm-fresh produce, simplifying access and promoting nutritious choices. Explore how these services redefine the way we shop for and enjoy our greens.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/blog2.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Michael Johnson</a>
+                        <a href="#"><i class="fa-solid fa-calendar-days"></i> 1st Aug 2020</a>
+                    </div>
+                    <h3>"Harvest to Home:Embracing Convenience and Freshness through Vegetable E-commerce"</h3>
+                    <p>The surge of vegetable e-commerce redefines how we get fresh produce. Convenient, diverse, and quality-driven, these platforms offer a seamless way to shop for farm-fresh veggies, transforming our approach to healthy eating and lifestyle choices.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/blog3.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Sarah Chen</a>
+                        <a href="#"><i class="fa-solid fa-calendar-days"></i> 11st October 2021</a>
+                    </div>
+                    <h3>"Harvesting Convenience: The Green Revolution of Vegetable E-commerce"</h3>
+                    <p>Vegetable ecommerce has revolutionized access to fresh produce. From farm to doorstep,these platforms offer vegetables. With convenience and wider choices, customers enjoy farm-fresh options, supporting local growers.These services redefine how we procure and savor our veggies.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Veggies <i class="fa fa-shopping-basket"></i></h3>
+                <p>Explore our vibrant veggie e-commerce hub! From farm-fresh produce to organic delights, discover a kaleidoscope of vegetables for healthy living, delivered to your doorstep.</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+                </div>
+
+            </div>
+            <div class="box">
+                <h3>Contact Info </h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +91 9011773701</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +91 9284023373</a>
+                <a href="#" class="links"><i class="fa-solid fa-envelope"></i> mayur92@gmail.com</a>
+                <a href="#" class="links"><i class="fa-solid fa-location-dot"></i> Pune, Maharashatra 412206</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links </h3>
+                <div class="quick-links">
+                    <a href="#home" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+                    <a href="#products" class="links"><i class="fa fa-arrow-right"></i> Product</a>
+                    <a href="#features" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                    <a href="#categories" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                    <a href="#customer-review" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+                    <a href="#blogs" class="links"><i class="fa fa-arrow-right"></i> Blog</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <h3>Newsletter </h3>
+                <p>Subscribe to the Veggies</p>
+                <input type="email" placeholder="your email..." class="email">
+                <input type="submit" value="Subscribe" class="btn"><br>
+                <a href="#" class="payment-icons"> <i class="fa-solid fa-credit-card"></i> <i
+                        class="fa-brands fa-cc-visa"></i> <i class="fa-solid fa-money-check-dollar"></i></a>
+            </div>
+        </div>
+
+        <div class="credit">
+            Created by <span>MSB</span> | © All rights reserved.
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
